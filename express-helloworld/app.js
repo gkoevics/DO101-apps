@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Version 1!\n');
+  res.send('Version 2!\n');
 });
 
 app.get('/mars', function (req, res) {
